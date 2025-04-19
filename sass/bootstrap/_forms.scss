@@ -166,6 +166,7 @@ textarea.form-control {
 // https://github.com/twbs/bootstrap/issues/11586.
 
 input[type="search"] {
+  appearance: none;
   -webkit-appearance: none;
 }
 
