@@ -314,6 +314,17 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff !important;
 }
 
+#fh5co-work.fh5co-bg-dark,
+#fh5co-started.fh5co-bg-dark {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+#fh5co-work .container,
+#fh5co-started .container {
+  max-width: 1200px;
+}
+
 .info {
   margin: 0;
   padding: 0;
