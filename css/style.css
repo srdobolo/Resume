@@ -707,9 +707,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .work {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+  background-color: #fff;
   position: relative;
   height: 270px;
   width: 100%;
