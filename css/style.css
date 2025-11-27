@@ -742,8 +742,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
-  background: #fff;
-  opacity: 0;
+  background: rgba(255, 255, 255, 0.5);
+  opacity: 1;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -752,8 +752,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 .work .desc span {
   display: block;
@@ -761,13 +761,13 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
-  -webkit-transform: translate3d(0, 15px, 0);
-  transform: translate3d(0, 15px, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 @media screen and (max-width: 768px) {
   .work .desc {
     opacity: 1;
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.5);
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1063,8 +1063,8 @@ input[type="text"] {
   bottom: 20px;
   right: 20px;
   z-index: 999;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -1304,16 +1304,16 @@ input[type="text"] {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #f8f9fa; /* Light gray background (Bootstrap color) */
+  background-color: #FF9000;
   font-family: 'Space Mono', monospace;
   font-size: 0.9em;
-  color: #333;
+  color: #fff;
 }
 footer p {
   margin: 0;
 }
 footer a {
-  color: #007bff; /* Bootstrap primary blue */
+  color: #fff;
   text-decoration: none;
 }
 footer a:hover {
